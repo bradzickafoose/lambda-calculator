@@ -24,7 +24,7 @@ This project was put together using create-react-app (CRA). You will not need to
 
 - [x] Create a forked copy of this project.
 - [x] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
+- [x] Clone your OWN version of the repository in your terminal
 - [ ] CD into the project base directory `cd lambda-calculator`
 - [ ] Download project dependencies by running one of these two commands `yarn` or `npm install`
 - [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
