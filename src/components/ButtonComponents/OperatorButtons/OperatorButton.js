@@ -1,4 +1,5 @@
 import React from "react";
+import "./OperatorButton.scss";
 
 const OperatorButton = props => {
   console.log(props);
