@@ -3,13 +3,14 @@
     width: 100%;
     max-width: 550px;
     border-radius: 15px;
-    border: 2px solid grey;
+    border: 6px solid darken(#c00025, 5%);
     padding-bottom: 25px;
 }
 .display {
     margin-top: 25px;
-    height: 100px;
-    width: 450px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -17,8 +18,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
+    padding: .2em .5em;
+    font-size: 1.5rem;
   }
   .App {
     align-items: center;

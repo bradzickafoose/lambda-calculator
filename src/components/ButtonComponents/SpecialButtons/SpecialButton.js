@@ -1,4 +1,5 @@
 import React from "react";
+import "./SpecialButton.scss";
 
 const SpecialButton = props => {
   console.log("special", props)
