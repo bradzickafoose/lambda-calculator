@@ -1,4 +1,5 @@
 import React from "react";
+import "./NumberButton.scss";
 
 const NumberButton = props => {
   console.log("NumberButton", props)
