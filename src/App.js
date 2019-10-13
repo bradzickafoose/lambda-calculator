@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "./App.css";
+import "./App.scss";
 // STEP 4 - import the button and display components
 // Don't forget to import any extra css/scss files you build into the correct component
 // Logo has already been provided for you. Do the same for the remaining components
@@ -23,7 +23,7 @@ function App() {
     if (operator === "=") {
       setDisplayValue(displayValue => eval(displayValue))
     } else {
-    setDisplayValue(displayValue => displayValue + " " + operator + " ");
+      setDisplayValue(displayValue => displayValue + " " + operator + " ");
     }
   };
 
@@ -37,7 +37,7 @@ function App() {
           <Specials />
           <Numbers addNumber={addNumber} />
         </div>
-        <Operators addOperator={addOperator}/>
+        <Operators addOperator={addOperator} />
       </div>
     </div>
   );
