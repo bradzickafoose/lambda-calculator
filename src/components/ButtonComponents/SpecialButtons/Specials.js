@@ -12,11 +12,8 @@ const Specials = () => {
     <div className="specialButtonContainer">
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
-       it any props needed by the child component*/
-       specialsState.map((button, index) => (
-        <SpecialButton key={index} button={button} />
-      ))
-       }
+      it any props needed by the child component*/}
+       {specials.map(special => <SpecialButton text={special} />)}
     </div>
   );
 };
