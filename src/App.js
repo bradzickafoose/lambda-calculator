@@ -30,14 +30,16 @@ function App() {
   return (
     <div className="container">
       <Logo />
-      <div className="App">
+      <div className="appContainer">
       {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <Display value={displayValue} />
-        <div className="buttons">
-          <Specials />
-          <Numbers addNumber={addNumber} />
+        <div className="buttonContainer">
+          <div className="buttonGroup">
+            <Specials />
+            <Numbers addNumber={addNumber} />
+          </div>
+          <Operators addOperator={addOperator} />
         </div>
-        <Operators addOperator={addOperator} />
       </div>
     </div>
   );

@@ -1,18 +1,16 @@
 .container {
+    display: flex;
+    flex-direction: column;
     background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
+    max-width: 210px;
     border-radius: 15px;
     border: 6px solid darken(#c00025, 5%);
     padding: 20px;
 }
-  .App {
-    align-items: center;
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 20px;
-}
-.buttons {
+.appContainer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+.buttonContainer {
+    display: flex;
 }
