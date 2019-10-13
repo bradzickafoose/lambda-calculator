@@ -4,23 +4,8 @@
     max-width: 550px;
     border-radius: 15px;
     border: 6px solid darken(#c00025, 5%);
-    padding-bottom: 25px;
+    padding: 20px;
 }
-.display {
-    margin-top: 25px;
-    height: auto;
-    max-width: 100%;
-    width: auto;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: .2em .5em;
-    font-size: 1.5rem;
-  }
   .App {
     align-items: center;
     width: 90%;
