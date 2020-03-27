@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #c00025;
+    max-width: 210px;
+    border-radius: 15px;
+    border: 6px solid darken(#c00025, 5%);
+    padding: 20px;
+}
+.appContainer {
+    display: flex;
+    flex-direction: column;
+}
+.buttonContainer {
+    display: flex;
+}
